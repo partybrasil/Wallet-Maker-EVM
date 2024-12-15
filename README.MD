@@ -1,5 +1,5 @@
 # 🌟 **Wallets EVM Generator**
-*(Generador de carteras para web3 y blockchain)*
+*(Generador de carteras para web3 y blockchain, por el momento solo crea carteras y exporta un .txt con las credenciales, clave privada y semilla de 12 palabras secretas. Próximamente mas funciones.)*
 
 ---
 
