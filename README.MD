@@ -9,11 +9,11 @@ Esta aplicación está desarrollada con un enfoque en la creación de carteras, 
 ---
 
 ## 🚀 **Características Principales**  
-✔️ **Generación de carteras**: Perfecta para redes blockchain *EVM compatibles*.  
-✔️ **Fácil de usar**: Interfaz gráfica moderna y accesible.  
-✔️ **Conexión con redes blockchain**: Compatible con Ethereum, Binance Smart Chain, Polygon, Avalanche y más.  
-✔️ **Gestión de claves privadas**: Mantenimiento y exportación de claves privadas de forma segura.  
-✔️ **Consumo de APIs de terceros**: Consulta de balances, creación de transacciones e historial de actividades. 
+✔️ *Generación de carteras*: Perfecta para redes blockchain *EVM compatibles*.  
+✔️ *Fácil de usar*: Interfaz gráfica moderna y accesible.  
+✔️ *Conexión con redes blockchain*: Compatible con Ethereum, Binance Smart Chain, Polygon, Avalanche y más.  
+✔️ *Gestión de claves privadas*: Mantenimiento y exportación de claves privadas de forma segura.  
+✔️ *Consumo de APIs de terceros*: Consulta de balances, creación de transacciones e historial de actividades. 
 ---
 
 ## 🛠️ **Tecnologías utilizadas**  
