@@ -8,21 +8,44 @@ Esta aplicación está desarrollada con un enfoque en la creación de modernas i
 
 ---
 
-## 🚀 **Características Principales**
-✔️ **Interfaz de usuario moderna y adaptable**: Creada con PyQt5 para garantizar una experiencia visual excelente.  
-✔️ **Conexión con servicios web**: Utiliza solicitudes HTTP seguras con la librería **requests** para interactuar con APIs.  
-✔️ **Fácil de instalar**: Gracias al soporte de **pip**, las dependencias se gestionan de forma sencilla.  
-✔️ **Rendimiento óptimo**: Compatibilidad con sistemas Windows 11 y arquitectura amd64.
+## 🚀 **Características Principales**  
+✔️ **Generación de carteras**: Perfecta para redes blockchain *EVM compatibles*.  
+✔️ **Fácil de usar**: Interfaz gráfica moderna y accesible.  
+✔️ **Conexión con redes blockchain**: Compatible con Ethereum, Binance Smart Chain, Polygon, Avalanche y más.  
+✔️ **Gestión de claves privadas**: Mantenimiento y exportación de claves privadas de forma segura.  
+✔️ **Consumo de APIs de terceros**: Consulta de balances, creación de transacciones e historial de actividades. 
+---
+
+## 🛠️ **Tecnologías utilizadas**  
+- ⚙️ **Lenguaje de programación:** Python 3.12.6  
+- 🖥️ **Interfaz gráfica:** PyQt5  
+- 🌐 **Redes blockchain soportadas:** Arbitrum, Aurora, Avalanche, C-Chain, Base, Blast, Boba, BounceBit, Callisto, Celo, Conflux, eSpace, Ethereum, Classic, Cronos, Chain, Ethereum, Evmos, Fantom, GoChain, ECO, Chain, IoTeX, EVM, K, Kaia, KavaEvm, KuCoin, Community, Chain, Linea, Manta, Pacific, Mantle, Merlin, Metis, Moonbeam, Moonriver, Neon, OpBNB, Optimism, Polygon, Polygon, zkEVM, Scroll, Smart, Chain, ThunderCore, V, Viction, Wanchain, xDai, Zeta, EVM, Z, ZkLinkNova, Zksync y más.
+- 🔗 **Conexión a APIs blockchain:** Integración con servicios como Infura, Alchemy o datos on-chain.  
+- 🔒 **Manejo de claves:** Creación, encriptación y almacenamiento seguro.  
 
 ---
 
-## 🛠️ **Tecnologías utilizadas**
-A continuación, se listan las tecnologías clave en el desarrollo:
-- **Lenguaje de programación:** Python 3.12.6
-- **Interfaz gráfica:** PyQt5
-- **Gestión de dependencias:** pip
-- **Manejo de solicitudes web:** requests
-- **Sistema operativo soportado:** Windows 11 (amd64)
+## 🌐 **Soporte para redes populares**  
+
+<!-- Redes principales -->
+  <img src="https://cryptologos.cc/logos/ethereum-eth-logo.png" alt="Ethereum" width="50" title="Ethereum"/>  
+  <img src="https://cryptologos.cc/logos/binance-coin-bnb-logo.png" alt="Binance Smart Chain" width="50" title="Binance Smart Chain"/>  
+  <img src="https://cryptologos.cc/logos/polygon-matic-logo.png" alt="Polygon" width="50" title="Polygon"/>  
+  <img src="https://cryptologos.cc/logos/arbitrum-arb-logo.png" alt="Arbitrum" width="50" title="Arbitrum"/>  
+  <img src="https://cryptologos.cc/logos/avalanche-avax-logo.png" alt="Avalanche" width="50" title="Avalanche"/>   
+  <!-- Redes EVM compatibles -->
+  <img src="https://cryptologos.cc/logos/gnosis-gno-logo.png" alt="Gnosis (xDai)" width="50" title="Gnosis (xDai)"/>  
+  <img src="https://cryptologos.cc/logos/moonbeam-glmr-logo.png" alt="Moonbeam" width="50" title="Moonbeam"/>  
+  <img src="https://cryptologos.cc/logos/celo-celo-logo.png" alt="Celo" width="50" title="Celo"/>  
+  <img src="https://cryptologos.cc/logos/fantom-ftm-logo.png" alt="Fantom" width="50" title="Fantom"/>  
+  <!-- Más redes compatibles -->
+  <img src="https://cryptologos.cc/logos/wanchain-wan-logo.png" alt="Wanchain" width="50" title="Wanchain"/>   
+  <img src="https://cryptologos.cc/logos/cronos-cro-logo.png" alt="Cronos" width="50" title="Cronos"/>
+  <img src="https://cryptologos.cc/logos/ethereum-classic-etc-logo.png" alt="Ethereum Classic" width="50" title="Ethereum Classic"/>  
+
+🎉 **Nota:** Estamos comprometidos a agregar más redes y logos específicos en actualizaciones futuras, basándonos en solicitudes de los usuarios y nuevas integraciones.
+
+</p>
 
 ---
 
@@ -31,8 +54,7 @@ A continuación, se listan las tecnologías clave en el desarrollo:
 📦 Nombre-del-Proyecto
 ├── 📁 src            # Código fuente del proyecto
 │   ├── main.py       # Archivo principal de la aplicación
-│   ├── ui/           # Archivos relacionados con la interfaz gráfica (PyQt)
-│   └── utils/        # Módulos auxiliares
+│   └── ui/           # Archivos relacionados con la interfaz gráfica (PyQt)
 ├── 📁 docs           # Documentación del proyecto
 ├── requirements.txt  # Dependencias del proyecto
 └── README.md         # Archivo que estás leyendo
@@ -58,17 +80,17 @@ Para ejecutar esta aplicación, asegúrate de tener instalados los siguientes el
 ## ▶️ **Cómo Ejecutar la Aplicación**
 1. Clona este repositorio en tu máquina:
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/partybrasil/Wallet-Maker-EVM.git
    ```
 
 2. Ve al directorio del proyecto:
    ```bash
-   cd Nombre-del-Proyecto
+   cd Wallet-Maker-EVM
    ```
 
 3. Ejecuta el archivo principal:
    ```bash
-   python src/main.py
+   python ./ui.py
    ```
 
 4. ¡Disfruta de tu aplicación!
@@ -101,8 +123,8 @@ Este proyecto está bajo la licencia **MIT**. Puedes consultar más detalles en 
 
 ## 📧 **Contacto**
 Si tienes dudas o necesitas soporte, no dudes en contactarme:
-- **Email:** ejemplo@email.com
-- **GitHub:** [tu-usuario](https://github.com/tu-usuario)
-- **LinkedIn:** [tu-perfil](https://linkedin.com/in/tu-perfil)
+- **Email:** party_brasil@hotmail.com
+- **GitHub:** [partybrasil](https://github.com/partybrasil)
+- **LinkedIn:** [partybrasil](https://linkedin.com/in/partybrasil)
 
 ---
