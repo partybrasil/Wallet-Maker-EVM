@@ -1,10 +1,10 @@
-# 🌟 **Nombre del Proyecto**
-*(Coloca aquí el nombre oficial de tu aplicación)*
+# 🌟 **Wallets EVM Generator**
+*(Generador de carteras para web3 y blockchain)*
 
 ---
 
 ## 📝 **Descripción del Proyecto**
-Esta aplicación está desarrollada con un enfoque en la creación de modernas interfaces gráficas, integrando la capacidad de consumir datos desde APIs externas. Utiliza tecnologías robustas como **Python 3.12.6**, **PyQt5** y **requests**, brindando al usuario una experiencia fluida, intuitiva y funcional.
+Esta aplicación está desarrollada con un enfoque en la creación de carteras, integrando la capacidad de consumir datos desde APIs externas. Utiliza tecnologías robustas como **Python 3.12.6**, **PyQt5** y **requests**, brindando al usuario una experiencia fluida, intuitiva y funcional.
 
 ---
 
@@ -41,8 +41,8 @@ Esta aplicación está desarrollada con un enfoque en la creación de modernas i
 ```plaintext
 📦 Nombre-del-Proyecto
 ├── 📁 src            # Código fuente del proyecto
-│   ├── main.py       # Archivo principal de la aplicación
-│   └── ui/           # Archivos relacionados con la interfaz gráfica (PyQt)
+│   ├── ui.py         # Archivo principal de la aplicación
+│   └── wallet_app.ui # Archivos relacionados con la interfaz gráfica (PyQt)
 ├── 📁 docs           # Documentación del proyecto
 ├── requirements.txt  # Dependencias del proyecto
 └── README.md         # Archivo que estás leyendo
